@@ -1,4 +1,2 @@
 flask>=3.0
 pytest>=7.4
-# L5 语义召回（可选）
-# sentence-transformers>=2.2
