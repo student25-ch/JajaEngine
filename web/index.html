@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JajaEngine · 开源搜索引擎</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="hero">
+    <a class="logo" href="/">Jaja<span>Engine</span></a>
+    <p class="tagline">轻量 · 可读 · 零依赖的中文搜索引擎</p>
+  </header>
+  <main>
+    <form id="search-form" class="search-box" autocomplete="off">
+      <input id="q" name="q" type="search"
+             placeholder='输入关键词，试试 "倒排索引" 或 +BM25 -爬虫'
+             aria-label="搜索">
+      <button type="submit">搜索</button>
+    </form>
+    <p class="hint">
+      语法：<code>"短语"</code> 精确匹配 · <code>+必须</code> · <code>-排除</code>
+    </p>
+    <section id="meta" class="meta"></section>
+    <ol id="results" class="results"></ol>
+    <nav id="pager" class="pager"></nav>
+  </main>
+  <footer><span>JajaEngine</span> · GPLv3 · 维护者 student25-ch</footer>
+  <script src="/static/app.js"></script>
+</body>
+</html>

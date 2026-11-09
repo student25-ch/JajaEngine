@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+data/index.json
+data/vectors.npy
+data/vectors.npy.ids.json
+data/ltr/clicks.jsonl
+data/ltr/model.json
+data/logs/
+.DS_Store
+.idea/
+.vscode/

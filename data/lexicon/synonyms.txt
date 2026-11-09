@@ -1,0 +1,18 @@
+# JajaEngine 同义词表
+# 格式：一行一组，同组词项互相等价，空格分隔
+# 以 # 开头为注释
+搜索 检索 查找 搜寻
+索引 index 倒排
+排序 排名 rank 打分
+分词 切词 tokenize
+爬虫 spider 抓取 crawler
+文档 doc document 文章
+查询 query 关键词
+算法 algorithm 方法
+开源 opensource
+许可证 license 协议
+机器学习 ml
+语义 semantic 向量
+纠错 拼写 spell
+点击 click
+重排 rerank 排序优化
